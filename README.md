@@ -9,7 +9,7 @@ This project provides a simple web application that generates random quotes and 
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Credits](#credits)
-- [License](#license)
+
 
 ## Features
 
@@ -24,12 +24,12 @@ To run this project locally, follow these steps:
 
 2. Navigate to the project directory:
 
-cd quote generator
+**cd quote generator**
 
 
 3. Install dependencies:
 
-npm install
+**npm install**
 
 
 ## Usage
@@ -60,9 +60,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - This project utilizes the [type.fit](https://type.fit/api/quotes) API for retrieving random quotes.
 - Cat facts are fetched from the [Cat Facts API](https://catfact.ninja/fact).
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 

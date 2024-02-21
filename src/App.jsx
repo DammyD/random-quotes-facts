@@ -4,7 +4,7 @@ import Quotes from './components/Quotes';
 function App() {
  
   return (
-    <div className="bg-gradient-to-br from-blue-500 to-teal-400 min-h-screen">
+    <div className="bg-gradient-to-br from-blue-500 to-teal-400">
     <Facts/>
     <Quotes/>
     </div>

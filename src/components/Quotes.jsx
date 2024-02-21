@@ -22,7 +22,7 @@ const Quotes = () => {
     };
   
     return (
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center" style={{ height: "calc(60vh - 50px)" }}>
            <h1 className="text-3xl capitalize text-white  font-bold mb-6">Random Quotes</h1>
          <h2 className="text-2xl text-white font mb-6">"{randomQuote}"</h2>
         <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-black focus:outline-none text-lg" onClick={generateQuote}>Generate a quote</button>
